@@ -1,0 +1,29 @@
+{
+  "name": "canvas-life", 
+  "version": "0.0.1",
+  "description": "Conway's Game of Life in HTML canvas",
+  "author": "Graeme Sutherland <grasuth@nodestone.io>",
+  "contributors": [
+    { "name": "Graeme Sutherland", "email": "grasuth@nodestone.io" }
+  ],
+  "main": "lib/canvas-life.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grasuth/canvas-life.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grasuth/canvas-life.git/issues"
+  },
+  "keywords": [
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "preferGlobal": false,
+  "private": true,
+  "publishConfig": {
+  "registry": "https://your-private-hosted-npm.registry.nodejitsu.com"
+},
+  "license": "MIT"
+}
