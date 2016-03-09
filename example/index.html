@@ -11,8 +11,10 @@
 <canvas id="universe" width="600" height="300"></canvas>
 <script src="/lib/canvas-life.js"></script>
 <script>
-  
-  
+  var universe = document.getElementById('universe')
+    , life = CanvasLife(universe, {});
+    
+  life.start();
 </script>
 </body>
 </html>
