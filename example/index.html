@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <meta name="description" content="Conway's life in JS with canvas">
   <meta charset="utf-8">
-  <title>Conway's Life under Canvas</title>
+  <title>Conway's Life under Canvas -- Example</title>
 </head>
-<body>
+<body onload="doLife();">
   <h1>Life</h1>
 <canvas id="universe" width="600" height="300"></canvas>
-<script src="/canvas-life.js"></script>
+<script src="/lib/canvas-life.js"></script>
+<script>
+  function doLife() {
+    var universe = document.getElementById('universe')
+      , life = CanvasLife(universe, {});
+      
+    life.start();
+  }
+</script>
 </body>
 </html>
