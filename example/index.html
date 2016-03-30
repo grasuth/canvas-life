@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="description" content="Conway's life in JS with canvas">
+  <meta name="description" content="Conway's life in JS with canvas">
   <meta charset="utf-8">
+  
   <title>Conway's Life under Canvas -- Example</title>
 </head>
 <body onload="doLife();">
   <h1>Life</h1>
-<canvas id="universe" width="600" height="300"></canvas>
-<script src="/lib/canvas-life.js"></script>
-<script>
-  function doLife() {
-    var universe = document.getElementById('universe')
-      , life = CanvasLife(universe, {});
-      
-    life.start();
-  }
+  
+  <canvas id="universe" width="600" height="300"></canvas>
+  
+  <script src="/lib/canvas-life.js"></script>
+  <script>
+    function doLife() {
+      var universe = document.getElementById('universe')
+        , life = CanvasLife(universe, {});
+        
+      life.start();
+    }
 </script>
 </body>
 </html>
